@@ -1,0 +1,136 @@
+body{
+  background-color: rgb(59, 79, 94);
+}
+html,body { height:100%; }
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.headerappi {
+    background-color: rgb(255, 104, 85);
+    color: white;
+    padding: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.containerrappi {
+    margin-top: 200px;
+    height: 100%;
+}
+
+.glyphicon{
+      cursor: pointer;
+    font-size: 20px;
+}
+.contenidorappi {
+    padding: 10px;
+    background-color: gray;
+    height: 100%;
+}
+.item {
+    background-color: white;
+    padding: 10px;
+    height: 80px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.item:hover{
+  background-color:rgb(224, 224, 224);
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  
+}
+.minimagen {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.titulo{
+      height: 60px;
+      padding-top: 3%;
+}
+
+.detalle{
+    background-color: white;
+}
+.imagendetalle{
+  max-height: 200px;
+}
+
+.bounceInLeft {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+.articulo{
+  margin-top: 10px;
+}
+.parrafo {
+    position: fixed;
+    padding-right: 30px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    height: 76px;
+}
+.columnatexto{
+      padding: 10px;
+}
+.titulodesc{
+    -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media only screen and (max-width: 600px) {
+    .containerrappi {
+        margin-top: 10px;
+        height: 100%; 
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 430px) {
+        .minimagen {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 11px;
+}
+.col-xs-2 {
+    padding-left: 10px;
+    width: 12.666667%;
+    height: 62px;
+}
+.titulo {
+    height: 51px;
+    font-size: 0.8em;
+    padding-top: 3%;
+    padding-left: 7px;
+}
+    }
+@media screen and (min-width: 0px) and (max-width: 550px) {
+       .col-xs-5 {
+        display: none;
+        width: 41.66666667%;
+        }
+        .row {
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+        .columnatexto {
+            padding: 10px;
+            width: 100%;
+        }
+        .col-xs-1 {
+            width: 8.33333333%;
+            padding: 0;
+        }
+        .titulodesc {
+    font-size: 10px;
+}
+    }
+.rowheader{
+  margin-right: 15px;
+    margin-left: 15px;
+}
