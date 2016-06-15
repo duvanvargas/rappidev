@@ -1,4 +1,8 @@
 #Prueba de Rappi :)
+En este enlace encontraran la prueba :
+
+http://duvanvargas.com/rappidev/
+
 Para probar con una url externa solo deben abrir la consola en mi caso (G. Chrome) y copiar y pegar esta linea de codigo.
 
 var URL="http://duvanvargas.com/news_mock.json"
